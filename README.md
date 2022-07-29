@@ -8,5 +8,5 @@ This is the implementation of the framework described in the paper:
 # Train on GQA:
 python run_train.py
 
-# Valid on GQA:
+## Valid on GQA:
 python run_test.py
