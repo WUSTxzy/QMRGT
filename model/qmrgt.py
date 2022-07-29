@@ -20,7 +20,6 @@ class QMRGT(nn.Module):
         )
         self.mrgt = MRGT()
         hid_dim = CIM.dim
-        self.graph_reasoning = GraphReasoning()
         self.logit_fc = nn.Sequential(
             nn.Linear(hid_dim, hid_dim * 2),
             GeLU(),
@@ -37,7 +36,7 @@ class QMRGT(nn.Module):
         # visn_feats [128, 36, 768]
         # x [128, 768]
         embedding_output, lang_feats, visn_feats, output = self.cim_encoder(sent, (feat, pos))
-        final_output = self.graph_reasoning(visn_feats, lang_feats, embedding_output)
+        final_output = self.mrgt(visn_feats, lang_feats, embedding_output)
         logit = self.logit_fc(final_output)
 
         return logit
