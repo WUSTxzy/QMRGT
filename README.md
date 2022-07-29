@@ -6,8 +6,12 @@ This is the implementation of the framework described in the paper:
 ## Image feature download link:
 
 ## Train on GQA:
-·python run_train.py·
+```python
+python run_train.py
+```
 
 
 ## Valid on GQA:
+```python
 python run_test.py
+```
