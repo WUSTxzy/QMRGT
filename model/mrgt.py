@@ -117,10 +117,10 @@ class GNN(nn.Module):
             instruction = self.ins_layers[i](embedding_output, instruction, history_vector)
             ins = instruction.repeat(1, object_size, 1)  # [256, 37, 1024]
             F = self.w1(v_feats)  # [256,37,1024]
-            N = self.w2(v_feats) * self.w3(ins)  # [256,37,1024]
+            N = self.w2(v_feats) + self.w3(ins)  # [256,37,1024]
             adj = torch.matmul(F, N.transpose(-1, -2))  # [256,37,37]
             score = self.dropout(torch.softmax(adj, -1))   # [256,37,37]
-            message = self.w4(v_feats) * self.w5(ins)  # [256,37,1024]
+            message = self.w4(v_feats) + self.w5(ins)  # [256,37,1024]
             MESSAGE = torch.matmul(score, message)  # [256,37,1024]
             v_feats = self.w6(torch.cat((v_feats, MESSAGE), dim=-1))  # [256,37,1024*2]
             history_vector, attention_map = self.history_vector_predictor(v_feats)
