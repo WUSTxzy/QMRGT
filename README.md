@@ -5,7 +5,7 @@ This is the implementation of the framework described in the paper:
 [The website](https://cs.stanford.edu/people/dorarad/gqa/download.html) is available for the original GQA dataset. Download questions to `data/raw_data/` and the script to preprocess these datasets is under `data/process_raw_data/process_data.py`.
 
 ## Image feature download link:
-The image feature is extracted by Faster R-CNN, provided by [this repositories](https://nlp.cs.unc.edu/data/lxmert_data/vg_gqa_imgfeat). Follow these instructions to download them：
+The image feature is extracted by Faster R-CNN, provided by [this website](https://nlp.cs.unc.edu/data/lxmert_data/vg_gqa_imgfeat). Follow these instructions to download them：
 ```bash
 mkdir -p data/imgfeat
 wget https://nlp.cs.unc.edu/data/lxmert_data/vg_gqa_imgfeat/vg_gqa_obj36.zip -P data/vg_gqa_imgfeat
