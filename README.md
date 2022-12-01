@@ -44,7 +44,7 @@ Check out [`data/README.md`](data/README.md) for links to preprocessed data and 
 
 [`features_extraction/`](features_extraction) contains the latest feature extraction steps in `hdf5` and `npy` instead of `csv`, and with different backbones. Steps for the IGLUE datasets can be found in its [datasets sub-directory](features_extraction/datasets).
 
-H5 versions: quickly convert H5 to LMDB locally using [this script](https://github.com/e-bug/volta/blob/main/features_extraction/h5_to_lmdb.py).
+H5 versions: quickly convert H5 to LMDB locally using [this script](https://github.com/WUSTxzy/QMRGT/blob/volta-mrgt/features_extraction/h5_to_lmdb.py).
 
 
 ## Models
