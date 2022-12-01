@@ -6,6 +6,8 @@ This is the version of the VOTAL-MRGT framework described in the paper:
 The code is based on [VOTAL](https://github.com/e-bug/volta), and the framework is described in this paper:
 > **Emanuele Bugliarello, Ryan Cotterell, Naoaki Okazaki and Desmond Elliott. [Multimodal Pretraining Unmasked: A Meta-Analysis and a Unified Framework of Vision-and-Language BERTs](https://arxiv.org/abs/2011.15124). _Transactions of the Association for Computational Linguistics_ 2021; 9 978–994.**
 
+We stack our proposed **MRGT** module into [./volta/encoders.py](https://github.com/WUSTxzy/QMRGT/blob/volta-mrgt/volta/encoders.py)
+
 ## Repository Setup
 
 1\. Create conda environment.
