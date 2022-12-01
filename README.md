@@ -52,6 +52,7 @@ H5 versions: quickly convert H5 to LMDB locally using [this script](https://gith
 Check out [`MODELS.md`](MODELS.md) for links to pretrained models and how to define new ones in VOLTA.
 
 Model configuration files are stored in [config/](config). 
+
 They can control whether to perform graph reasoning with our proposed MRGT module.
 
 ## Training and Evaluation
