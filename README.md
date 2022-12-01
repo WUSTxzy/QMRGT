@@ -1,7 +1,7 @@
 # VOLTA-MRGT
 
 This is the version of the VOTAL-MRGT framework described in the paper:
-> A Question-Guided Multi-hop Reasoning Graph Network for Visual Question Answering.
+> **A Question-Guided Multi-hop Reasoning Graph Network for Visual Question Answering.**
 
 The code is based on [VOTAL](https://github.com/e-bug/volta), and the framework is described in this paper:
 > Emanuele Bugliarello, Ryan Cotterell, Naoaki Okazaki and Desmond Elliott. [Multimodal Pretraining Unmasked: A Meta-Analysis and a Unified Framework of Vision-and-Language BERTs](https://arxiv.org/abs/2011.15124). _Transactions of the Association for Computational Linguistics_ 2021; 9 978–994.
@@ -53,7 +53,7 @@ Check out [`MODELS.md`](MODELS.md) for links to pretrained models and how to def
 
 Model configuration files are stored in [config/](config). 
 
-They can control whether to perform graph reasoning with our proposed MRGT module.
+**They can control whether to perform graph reasoning with our proposed MRGT module. The defult setting is true.**
 
 ## Training and Evaluation
 
