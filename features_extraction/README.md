@@ -2,10 +2,10 @@
 
 ## ResNet-101 backbone, 36 boxes
 
-We use [Hao Tan's Detectron2 implementation of 'Bottom-up feature extractor'](https://github.com/airsplay/py-bottom-up-attention), which is compatible with [the original Caffe implementation](https://github.com/peteanderson80/bottom-up-attention).
+VOLTA use [Hao Tan's Detectron2 implementation of 'Bottom-up feature extractor'](https://github.com/airsplay/py-bottom-up-attention), which is compatible with [the original Caffe implementation](https://github.com/peteanderson80/bottom-up-attention).
 
-Following LXMERT, we use the feature extractor which outputs 36 boxes per image.
-We store features in hdf5 format.
+Following LXMERT, VOLTA use the feature extractor which outputs 36 boxes per image.
+The features are stored in hdf5 format.
 
 ### Install Feature Extractor
 
