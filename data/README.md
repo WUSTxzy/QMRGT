@@ -24,7 +24,7 @@ More recent (from [IGLUE](https://github.com/e-bug/iglue)) and with more backbon
 - [xFlickr&CO](https://sid.erda.dk/sharelink/cCObmVenjI)
 - [WIT](https://sid.erda.dk/sharelink/escPrWm3Tt)
 
-H5 version: quickly be converted to LMDB locally using [this script](https://github.com/e-bug/volta/blob/main/features_extraction/h5_to_lmdb.py).
+H5 version: quickly be converted to LMDB locally using [this script](https://github.com/WUSTxzy/QMRGT/blob/volta-mrgt/features_extraction/h5_to_lmdb.py).
 
 ## Preprocessing Steps
 
