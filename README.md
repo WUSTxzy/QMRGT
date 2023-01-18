@@ -1,7 +1,7 @@
 # VOLTA-MRGT
 
 This is the version of the VOTAL-MRGT framework described in the paper:
-> **A Question-Guided Multi-hop Reasoning Graph Network for Visual Question Answering.**
+> **Zhaoyang Xu, Jinguang Gu, Maofu Liu, Guangyou Zhou, Haidong Fu, Chen Qiu.[A Question-Guided Multi-hop Reasoning Graph Network for Visual Question Answering](https://www.sciencedirect.com/science/article/abs/pii/S0306457322003089).Information Processing & Management,Volume 60, Issue 2,2023,103207,ISSN 0306-4573.**
 
 The code is based on [VOTAL](https://github.com/e-bug/volta), and the framework is described in this paper:
 > **Emanuele Bugliarello, Ryan Cotterell, Naoaki Okazaki and Desmond Elliott. [Multimodal Pretraining Unmasked: A Meta-Analysis and a Unified Framework of Vision-and-Language BERTs](https://arxiv.org/abs/2011.15124). _Transactions of the Association for Computational Linguistics_ 2021; 9 978–994.**
